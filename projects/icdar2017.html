@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0069)http://www3.cs.stonybrook.edu/~cvl/content/neuralface/neuralface.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Improving Offline Handwritten Chinese Character Recognition by Iterative Refinement</title>
+	<meta name="description" content="Project Page for Reading Irregular Text">
+    <meta name="author" content="Xiao Yang">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="ijcai2017_irregular/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<link href="ijcai2017_irregular/custom.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+<center><br class="auto-style2">
+<table width="1000" style="height: 78px">
+	<tbody><tr>
+		<td class="auto-style2">&nbsp;</td>
+	</tr>
+	<tr>
+		<td align="center" class="title" colspan="99">
+		<h1 class="auto-style4">Improving Offline Handwritten Chinese Character Recognition by Iterative Refinement</h1>
+		</td>
+	</tr>
+</tbody></table>
+<br><div class="author">
+		<a href="http://personal.psu.edu/xuy111/">Xiao Yang</a>&nbsp;&nbsp;&nbsp;
+		<a href="http://personal.psu.edu/duh188/">Dafang He</a>&nbsp;&nbsp;&nbsp;
+		<a href="https://faculty.ist.psu.edu/zzhou/Home.html">Zihan Zhou</a>&nbsp;&nbsp;&nbsp;
+		<a href="http://www.cse.psu.edu/~duk17/">Daniel Kifer</a>&nbsp;&nbsp;&nbsp;
+		<a href="https://clgiles.ist.psu.edu/">C. Lee Giles</a>&nbsp;&nbsp;&nbsp;
+		</div><br><div class="institute">
+		<a href="http://www.psu.edu/">Penn State University</a>&nbsp;&nbsp;&nbsp;
+		</div><br><table>
+	<tbody><tr>
+		
+	</tr>
+	<tr>
+		
+	</tr>
+</tbody></table>
+<table width="800">
+	<tbody><tr>
+		<td align="center" style="width: 812px"><span class="auto-style3">
+		<img src="icdar2017/examples.png" width="800"><br>
+		</span></td></tr>
+	</tbody>
+</table>
+<br><table width="800">
+	<tbody>
+		<tr>
+		<td style="width: 812px"><div class="auto-style3">Abstract</div>
+		<br>
+		<div>We present an \textit{iterative refinement module} that can be applied to the output feature maps of any existing convolutional neural networks in order to further improve classification accuracy. The proposed module, implemented by an attention-based recurrent neural network, can iteratively use its previous predictions to update attention and thereafter refine current predictions. In this way, the model is able to focus on a sub-region of input images to distinguish visually similar characters (see Figure~\ref{fig:example} for an example). We evaluate its effectiveness on handwritten Chinese character recognition (HCCR) task and observe significant performance gain. HCCR task is challenging due to large number of classes and small differences between certain characters. To overcome these difficulties, we further propose a novel convolutional architecture that utilizes both low-level visual cues and high-level structural information. Together with the proposed iterative refinement module, our approach achieves an accuracy of 97.37\%, outperforming previous methods that use raw images as input on ICDAR-2013 datase.</div><br>
+		</td></tr>
+		<tr>
+		<td style="width: 812px"><div class="auto-style3">Network Architecture</div>
+		<br>
+		<div><img src="icdar2017/architecture.png" width="800"></div><br>
+		</td></tr>
+		<tr>
+		<td style="width: 812px"><div class="auto-style3">Paper</div>
+		<br>
+        <div>Improving Offline Handwritten Chinese Character Recognition by Iterative Refinement (<a href="icdar2017/main.pdf">link</a>)</div><br>
+		</td></tr>
+		<tr>
+        <br>
+		<td style="width: 812px"><div class="auto-style3">Supplementary Material</div><br>
+		<div><a href="icdar2017/fcn_recognition_chinese.tar">Code (torch)</a></div><br>
+		<div><a href="">Code (PyTorch) [TBD]</a></div><br>
+		</td></tr>
+		<tr>
+		<td style="width: 812px"><div class="auto-style3">Acknowledgement</div><br>
+		<div>We gratefully acknowledge partial support from NSF grant CCF 1317560 and a hardware grant from NVIDIA.</div><br>
+		<br>
+		</td>
+		<td class="auto-style2">&nbsp;</td>
+	    </tr>
+</tbody></table>
+
+</center>
+
+
+
+</body></html>
